@@ -1,0 +1,11 @@
+<div class="container m3">
+  <div id="question-border">
+  <%= params[:question].capitalize %>
+  <p><em><%= '-You' %></em>
+</div>
+<div id="answer-border">
+  <p><%= @answer %></p>
+  <p><em><%= '-Your Coach' %></em>
+</div>
+<p><%= link_to "Ask a new question", ask_path, class:'btn btn-primary' %>
+</div>
